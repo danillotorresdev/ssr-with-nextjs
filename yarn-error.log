@@ -1,0 +1,38 @@
+Arguments: 
+  /usr/local/bin/node /usr/local/bin/yarn add react react-dom next
+
+PATH: 
+  /usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin:/Applications/mongodb/bin
+
+Yarn version: 
+  1.16.0
+
+Node version: 
+  8.12.0
+
+Platform: 
+  darwin x64
+
+Trace: 
+  Error: getaddrinfo ENOTFOUND registry.yarnpkg.com registry.yarnpkg.com:443
+      at GetAddrInfoReqWrap.onlookup [as oncomplete] (dns.js:67:26)
+
+npm manifest: 
+  {
+    "name": "nextjs-ssr",
+    "version": "1.0.0",
+    "description": "",
+    "main": "index.js",
+    "scripts": {
+      "test": "echo \"Error: no test specified\" && exit 1"
+    },
+    "keywords": [],
+    "author": "",
+    "license": "ISC"
+  }
+
+yarn manifest: 
+  No manifest
+
+Lockfile: 
+  No lockfile
